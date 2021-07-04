@@ -5,6 +5,9 @@ body{
 h1{
     font-size:50px;
 }
+h2{
+    font-size: 40px;
+}
 .top-section{
     display: flex;
     background-image: url(images/top-banner.png);
@@ -31,11 +34,19 @@ h1{
 }
 .middle-section{
     display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    margin-bottom:100px;
 }
 .moanoghar{
     width: 50%;
-    padding-right:7px;
+    
+}
+.moanoghar p{
+    padding-right:100px;
 }
 .moanoghar img{
     width:76%;
+    
 }
