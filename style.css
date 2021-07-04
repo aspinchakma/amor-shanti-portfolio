@@ -9,6 +9,7 @@ h1{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom:100px;
 }
 .half-width{
     width:50%;
@@ -27,4 +28,14 @@ h1{
     background-image:linear-gradient(to bottom left, #FF6C4E, #FF9772);
     padding:10px 25px;
     border-radius:5px;
+}
+.middle-section{
+    display: flex;
+}
+.moanoghar{
+    width: 50%;
+    padding-right:7px;
+}
+.moanoghar img{
+    width:76%;
 }
